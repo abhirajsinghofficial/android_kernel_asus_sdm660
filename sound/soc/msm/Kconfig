@@ -143,7 +143,6 @@ config SND_SOC_EXT_CODEC
 	select SND_SOC_WCD_CPE
 	select SND_HWDEP
 	select MSM_ULTRASOUND
-	select DTS_EAGLE
 	select SND_SOC_SDM660_COMMON
 	select SND_SOC_COMPRESS
 	select PINCTRL_LPI
@@ -174,7 +173,6 @@ config SND_SOC_MSM8996
 	select MSM_ULTRASOUND
 	select DOLBY_DS2
 	select SND_HWDEP
-        select DTS_EAGLE
 	help
 	 To add support for SoC audio on MSM8996.
 	 This will enable sound soc drivers which
@@ -205,7 +203,6 @@ config SND_SOC_MSM8998
 	select MSM_ULTRASOUND
 	select DOLBY_LICENSE
 	select SND_HWDEP
-        select DTS_EAGLE
 	help
 	 To add support for SoC audio on MSM8998.
 	 This will enable sound soc drivers which
